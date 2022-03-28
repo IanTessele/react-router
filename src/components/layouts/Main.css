@@ -1,3 +1,36 @@
 .Main{
-    
+    display: flex;
+    flex-basis: 250px;
+    background-color: #262b44;
+}
+
+.Main nav{
+    flex: 1;
+}
+
+.Main ul{
+    list-style: none;
+    padding: 0;
+}
+
+.Main li{
+    display: flex;
+}
+
+.Main li > a {
+    flex: 1;
+    text-decoration: none;
+    color: #c0cbdc;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #3a4466;
+    text-align: left;
+    transition: 0.1s;
+}
+
+.Main li > a:hover {
+    text-align: center;
+    font-size: 2rem;
+    background-color: #8b9bb4;
 }
