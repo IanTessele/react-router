@@ -8,10 +8,13 @@ const Main = props => {
             <nav>
                 <ul>
                     <li>
-                        <Link to="/">Inicio</Link>
+                        <Link to="/home">Inicio</Link>
                     </li>
                     <li>
                         <Link to="/about">Sobre</Link>
+                    </li>
+                    <li>
+                        <Link to="/box">Box Teste</Link>
                     </li>
                 </ul>
             </nav>
